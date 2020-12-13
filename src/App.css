@@ -1,38 +1,141 @@
-.App {
-  text-align: center;
+.Container {
+  margin: 30px auto;
+  background-color: rgb(110, 172, 180);
+  width: 660px;
+  color: rgb(46, 52, 139);
+  border: 1px solid rgb(46, 52, 139);
+  border-radius: 5px;
+  box-shadow: 0px 0px 39px -12px rgb(46, 52, 139);
+  padding: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.list {
+  width: 600px;
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  width: 550px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  color: rgb(46, 52, 139);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.list_id {
+  display: none;
+}
+
+.input_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.form {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0px;
+}
+.input_song,
+.input_artist,
+.input_genre,
+.input_rating,
+.sort {
+  background-color: white;
+}
+
+.list_song,
+.input_name,
+.header_title {
+  width: 175px;
+  margin: 2px 5px;
+}
+
+.list_artist,
+.input_artist,
+.header_artist {
+  width: 150px;
+  margin: 2px 5px;
+}
+
+.list_genre,
+.input_genre,
+.header_genre {
+  width: 90px;
+  margin: 2px 5x;
+}
+
+.list_rating,
+.input_rating,
+.header_rating {
+  width: 90px;
+  margin: 2px 5px;
+}
+
+.input_sort {
+  width: 100px;
+  margin: 0;
+}
+
+.add-button {
+  background-color: rgb(56, 138, 19);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.trashbin {
+  height: 20px;
+  width: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav {
+  width: 800px;
+  margin: 0px auto;
+  padding: 0px 0px;
+  color: rgb(46, 52, 139);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_home {
+  text-decoration: none;
+}
+
+.nav_about {
+  text-decoration: none;
+}
+
+.subpage {
+  margin: 30px auto;
+  background-color: rgb(110, 172, 180);
+  width: 660px;
+  color: rgb(46, 52, 139);
+  border: 1px solid rgb(46, 52, 139);
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0px 0px 39px -12px rgb(46, 52, 139);
+}
+
+.subpage_title {
+  width: 660px;
+  margin: 0 auto;
+  text-align: left;
 }
